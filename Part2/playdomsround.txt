@@ -1,0 +1,23 @@
+playDomsRound :: DomsPlayer -> DomsPlayer -> Int -> (Int,Int)
+
+player_one_hand = first 9 of shuffleDoms n
+player_two_hand = last 9 of shuffleDoms n 
+
+
+
+1. call simplePlaer (player_one_hand and player_two_hand) ad board to 
+	return a domino and an end 
+
+2. place that domino on the specified end of board 
+
+3. find score of new board scoreBoard 
+	- add to fst and snd of score tuple 
+
+4. return score tuple when game is over 
+
+5. if isGameOver true for both player then finish 
+
+
+
+
+
